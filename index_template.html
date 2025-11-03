@@ -276,6 +276,21 @@
             </section>
           {% endif %}
 
+          {% if certifications %}
+            <section>
+              <h2 class="section-heading">Certifications</h2>
+              <ul class="unstyled-list">
+                {% for cert in certifications %}
+                  <li>
+                    <h3>{{ cert.name }}</h3>
+                    <p class="section-label">{{ cert.issuer }}</p>
+                    <p class="section-label">{{ cert.date }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+
           {% if languages %}
             <section>
               <h2 class="section-heading">Languages</h2>

@@ -1,0 +1,349 @@
+{
+  "name": "Xin Shao",
+  "label": "Senior Software QA Engineer/Manager",
+  "image_path": "portfolio_media/profile.jpg",
+  "contact": {
+    "email": "shaoxin1982@gmail.com",
+    "phone": "646-420-7898",
+    "location": "Flushing, NY"
+  },
+  "summary": "Accomplished Senior QA Engineer and Automation Leader with 15+ years of experience designing and implementing robust automation frameworks across web, API, and data platforms. Expertise in Python, Pytest, Selenium, Playwright and GitHub Actions, integrating quality processes within agile development lifecycles. Adept at translating complex business and technical requirements into effective test strategies, identifying system vulnerabilities early, and ensuring consistent product excellence.",
+  "url": "https://www.linkedin.com",
+  "social_links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com",
+      "svg_path": "img/linkedin.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "NYC Department of Environmental Protection",
+      "position": "Cybersecurity Analyst Intern",
+      "url": "https://www.nyc.gov/site/dep/index.page",
+      "start_date": "2025-06",
+      "end_date": "2025-08",
+      "highlights": [
+        "Investigated security alerts from Armis and Cortex XSIAM platform.",
+        "Analyzed tactics, techniques and procedures (TTPs) to simulate potential cyberattacks.",
+        "Leveraged external Python open sources tools like Snaffler, Snaffer Parser and Hawk Eye to identify any sensitive and PII information. During network scans, identified 880,697 vulnerabilities, including 140 critical issues, all of which were remediated prior to completion of the internship.",
+        "Monitored data flows to identify security anomalies, leading to enhanced threat detection and reduced risk exposure for critical assets.",
+        "Developed Python scripts to automate routine cybersecurity tasks, significantly improving operational efficiency and response times.",
+        "Partnered with team members to remediate vulnerabilities, fostering a proactive security culture and strengthening overall network defenses.",
+        "Conducted thorough evaluations of network-connected assets, identifying vulnerabilities and implementing corrective measures to enhance overall security posture.",
+        "Set up Prisma cloud and Checkov to run application source code scan and identify any vulnerability and sensitive information.",
+        "Used PDQ Deployment to install or uninstall any application or package to target machines."
+      ]
+    },
+    {
+      "company": "Moxe Health, Inc",
+      "position": "Senior Software QA Manager",
+      "url": "https://www.moxehealth.com/",
+      "start_date": "2023-04",
+      "end_date": "2024-10",
+      "highlights": [
+        "Oversaw and provided leadership to both onsite and remote QA Automated Engineers, ensuring efficient collaboration and a cohesive testing strategy.",
+        "Took charge of a high-performing functional software quality team, guiding them towards achieving excellence in software testing and quality assurance.",
+        "Founded and supervised a dedicated data quality team, focusing on data integrity, consistency, and quality throughout the organization.",
+        "Assembled and managed a specialized performance testing team, optimizing application performance through rigorous testing procedures.",
+        "Achieved cost savings by orchestrating the migration of existing tests from Jenkins Server to Github Actions, streamlining the testing infrastructure.",
+        "Leveraged Synk vulnerability scanning to automatically detect any security vulnerabilities in our existing Python automationtest suites and remediated them promptly."
+      ]
+    },
+    {
+      "company": "Moxe Health, Inc",
+      "position": "Software QA Manager",
+      "url": "https://www.moxehealth.com/",
+      "start_date": "2022-11",
+      "end_date": "2023-04",
+      "highlights": [
+        "Led the QA automation team with a remarkable 90% approval rate from peers and colleagues, reflecting strong leadership and effective management skills.",
+        "Successfully managed and provided leadership to a team of 6 QA automation Engineers, fostering collaboration andproductivity in a remote work environment.",
+        "Formulated and executed high-level testing strategies for the QA team, ensuring alignment with company objectives and product development goals.",
+        "Spearheaded the development of quarterly and yearly QA initiatives, strategically aligning them with the company’s overarching goals and priorities.",
+        "Developed, implemented, and managed QA comprehensive QA processes and strategies, guaranteeing that products consistently met required quality, functional, and reliability standards prior to delivery.",
+        "Collaborated with team leads to develop reliable, scalable, and consistent test data, facilitating smoother testing processes within the Engineering team.",
+        "Collaborated closely with engineering team leads and managers to swiftly address and resolve any encountered issues, promoting seamless product development life cycles."
+      ]
+    },
+    {
+      "company": "Moxe Health, Inc",
+      "position": "Principle QA Engineer",
+      "url": "https://www.moxehealth.com/",
+      "start_date": "2022-07",
+      "end_date": "2022-11",
+      "highlights": [
+        "Successfully managed and provided remote leadership to a team of 6 QA Automation Engineers, ensuring seamless collaboration and productivity.",
+        "Pioneered the development of QA initiatives strategically synchronized with the company’s quarterly and yearly objectives, contributing to organizational success",
+        "Developed, implemented, and managed comprehensive QA processes and overarching strategy to guarantee that product consistently met specified quality, functional, and reliability criteria prior to delivery.",
+        "Designed and built a robust web automation framework from scratch using Python, Selenium, and Pytest, maintaining andexpanding the test suite to cover web applications comprehensively.",
+        "Developed a comprehensive API automation framework from the ground up using Python, Request and Pytest, covering API tests and maintaining the test suite.",
+        "Collaborated closely with product managers and development leads to identify root cause and implement effective resolutions for issues and challenges.",
+        "Guided creation of comprehensive test plans, test cases, test scripts in Python through collaborative meetings with product managers to analyze business requirements."
+      ]
+    },
+    {
+      "company": "Moxe Health, Inc",
+      "position": "Software QA Lead",
+      "url": "https://www.moxehealth.com/",
+      "start_date": "2021-06",
+      "end_date": "2022-07",
+      "highlights": [
+        "Successfully managed and provided remote leadership to a team of 3 QA Automation Engineers, ensuring effective collaboration and productivity.",
+        "Identified and established precise quality standards, metrics, and objectives across multiple products, maintaining a high level of quality assurance throughout.",
+        "Designed and built both Web and API automation frameworks from scratch using a suite of technologies, including Python, Selenium, Request, PlayWright and Pytest. These frameworks covered web applications and API endpoints and weremeticulously maintained.",
+        "Provided leadership and mentorship to QA automation engineers in other scrum teams, empowering them to deliver business value within Sprint cycles, fostering knowledge transfer and growth",
+        "Collaborated closely with product managers and development leads to identify root causes of issues and implement effective resolutions, ensuring product quality and stability.",
+        "Worked extensively with patient clinical data requests, collaborating with both payers and healthcare providers to ensure data accuracy and compliance with regulatory standards."
+      ]
+    },
+    {
+      "company": "Truveris, Inc",
+      "position": "Principal QA Engineer",
+      "url": "https://www.truveris.com/",
+      "start_date": "2015-09",
+      "end_date": "2021-02",
+      "highlights": [
+        "Provided leadership in data quality across all API, web and data products company wide.",
+        "Developed a brand-new automated UI test suite using Python, Selenium and Pytest for covering web apps from scratch.",
+        "Developed Python data analysis programs along with Jupyter Notebook using Panda, Numpy and Matplotlib to analyze more data and gain insight into our product.",
+        "Built and managed a team of remote and local QA engineers.",
+        "Mentored other QA team members in other scrum teams to enable them to deliver business value within a Sprint.",
+        "Investigated data quality issues and data scenarios resulting from development, operation and customer issues.",
+        "Monitored QA team automation projects progress weekly and make sure it aligns with company’s annual goals.",
+        "Organized, prioritized, and worked through QA activities and made sure that products would be released be on time.",
+        "Worked mostly with patient’s claim data on different Guarantee, GDR and Mercers reports for Anthem (WellPoint), Towers Watson and Aon Hewitt."
+      ]
+    },
+    {
+      "company": "Truveris, Inc",
+      "position": "Senior QA Engineer",
+      "url": "https://www.truveris.com/",
+      "start_date": "2011-11",
+      "end_date": "2015-08",
+      "highlights": [
+        "Developed test cases from the product specifications documents to cover all aspects of the products entered in Turantula and constantly improved software quality.",
+        "Created and ran Selenium test cases for web applications.",
+        "Recorded defects in Trac and Jira to provide detailed explanations to be fixed.",
+        "Provided training and coaching in QA tools and best practices to QA, development, DevOp and business members.",
+        "Developed testing processes and strategies in conjunction with software development vendors, business stakeholders and offshore QA team.",
+        "Assisted business stakeholders in developing an user acceptance test process and planning.",
+        "Worked with product management and development team to understand business and technical requirements, track milestones and manage issues and risks.",
+        "Presented dashboard reports of delivery status to stakeholders and business leads.",
+        "Performed end-to-end manual testing focusing in depth on specific areas of the products.",
+        "Developed and analyzed UI for automation testing using Python and Selenium.",
+        "Advised product development team on long term priorities and enhancements."
+      ]
+    },
+    {
+      "company": "Falconstor Software, Inc",
+      "position": "Senior QA Engineer",
+      "url": "https://www.falconstor.com/",
+      "start_date": "2007-03",
+      "end_date": "2011-11",
+      "highlights": [
+        "Analyzed requirements, calculated resource estimates, drafted test approaches, developed test cases, executed tests, and reported results.",
+        "Developed test plans and test cases using business requirements and design specifications.",
+        "Set up test environments on a variety of Linux kernels and Windows.",
+        "Created test plans to include sanity tests, stress tests, boundary tests, regression tests, integration tests, performance, and security tests.",
+        "Analyzed test results for performance and stress tests and provided clear, concise feedback to the development team.",
+        "Recorded, evaluated, and reported test results with respect to the quality, stability, and overall performance of the software.",
+        "Carried out tests for software upgrades and documents the procedures.",
+        "Actively participated in planning, estimation, and prioritization processes to ensure successful execution of testing activities.",
+        "Participated in weekly meetings with developers to discuss issues to eliminate errors.",
+        "Involved in entire SDLC and STLC by analyzing, integrating, testing, and deploying various business applications.",
+        "Managed and provided analysis and triage of customer support issues.",
+        "Performed performance testing using HP LoadRunner."
+      ]
+    },
+    {
+      "company": "FileNet, Inc (IBM)",
+      "position": "Technical Support Engineer/Technical Consultant",
+      "url": "https://www.ibm.com/",
+      "start_date": "2006-07",
+      "end_date": "2007-01",
+      "highlights": [
+        "Streamlined installation processes for FileNet P8 and Image Service across various platforms(Window 2000/2003 server,Solaris 9, HP and AIX 5L), enhancing operational efficiency and reducing deployment time.",
+        "Worked closely with customers in North America and Asia to develop tailored solutions, fostering strong relationships and improving service delivery.",
+        "Provided exceptional customer support through effective communication and problem-solving, ensuring clients received timely assistance and solutions",
+        "Led the installation and upgrade of multiple FileNet systems in various locations (DBS in Singapore, PingAn in ShengZhenof China and ORIX Computer System Corporation in Japan), ensuring seamless integration and operational continuity across diverse environments.",
+        "Executed thorough troubleshooting procedures, analyzing logs and screenshots to resolve recurring issues and enhance overall system reliability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "QA Automation Framework Development",
+      "summary": "Designed and built comprehensive automation frameworks from scratch for web, API, and data testing using Python, Selenium, Playwright, and Pytest. Frameworks integrated with CI/CD pipelines for continuous testing.",
+      "url": "",
+      "highlights": [
+        "Built web automation framework using Python, Selenium, and Pytest",
+        "Developed API automation framework using Python, Request, and Pytest",
+        "Integrated frameworks with GitHub Actions for CI/CD",
+        "Achieved cost savings by migrating from Jenkins to GitHub Actions"
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/automation1.jpg",
+          "caption": "Web Automation Framework"
+        },
+        {
+          "img_path": "portfolio_media/automation2.jpg",
+          "caption": "API Testing Suite"
+        }
+      ]
+    },
+    {
+      "title": "Security & Vulnerability Management",
+      "summary": "Led comprehensive cybersecurity initiatives identifying and remediating 880,697 vulnerabilities including 140 critical issues. Implemented security scanning tools and processes across development lifecycle.",
+      "url": "",
+      "highlights": [
+        "Identified 880,697 vulnerabilities including 140 critical issues",
+        "100% remediation rate during cybersecurity internship",
+        "Implemented Snyk vulnerability scanning in CI/CD pipeline",
+        "Set up Prisma Cloud and Checkov for application security scanning"
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/security1.jpg",
+          "caption": "Vulnerability Dashboard"
+        },
+        {
+          "img_path": "portfolio_media/security2.jpg",
+          "caption": "Security Scanning Pipeline"
+        }
+      ]
+    },
+    {
+      "title": "QA Team Leadership & Process Excellence",
+      "summary": "Built and led high-performing QA teams, established quality standards, and implemented strategic testing initiatives aligned with business objectives. Achieved 90% peer approval rating.",
+      "url": "",
+      "highlights": [
+        "Led teams of 3-6 QA automation engineers",
+        "90% approval rate from peers and colleagues",
+        "Founded dedicated data quality and performance testing teams",
+        "Mentored QA engineers across multiple scrum teams"
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/leadership1.jpg",
+          "caption": "Team Collaboration"
+        },
+        {
+          "img_path": "portfolio_media/leadership2.jpg",
+          "caption": "QA Metrics Dashboard"
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [],
+  "education": [
+    {
+      "institution": "CUNY - John Jay College of Criminal Justice",
+      "location": "New York, NY, USA",
+      "url": "https://www.jjay.cuny.edu/",
+      "degrees": [
+        "Master of Science in Digital Forensics and Cybersecurity"
+      ],
+      "honors": [],
+      "gpa_cumulative": "4.0",
+      "gpa_major": "",
+      "graduation_date": "2026-05"
+    },
+    {
+      "institution": "SUNY At Stony Brook",
+      "location": "Stony Brook, NY, USA",
+      "url": "https://www.stonybrook.edu/",
+      "degrees": [
+        "Bachelor of Science in Electrical Engineering",
+        "Bachelor of Science in Applied Mathematics"
+      ],
+      "honors": [],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "2006-05"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python, Pytest, Selenium, Playwright",
+      "proficiency": 100,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "QA Automation & Test Strategy",
+      "proficiency": 100,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "Cloud Security (GCP, AWS), Vulnerability Management",
+      "proficiency": 90,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "DevOps & CI/CD (GitHub Actions, Docker, Jenkins)",
+      "proficiency": 90,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "Data Analysis (Pandas, Jupyter, Tableau)",
+      "proficiency": 85,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "JavaScript, HTML, CSS",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    },
+    {
+      "name": "Machine Learning, Deep Learning",
+      "proficiency": 70,
+      "proficiency_label": "Comfortable"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Cloud Cybersecurity Career Certificate",
+      "issuer": "Google",
+      "date": "2025-01"
+    },
+    {
+      "name": "Prompt Engineering Career Certificate",
+      "issuer": "Vanderbilt University",
+      "date": "2025-01"
+    },
+    {
+      "name": "Claude Code: Software Engineering with Generative AI Agents",
+      "issuer": "Vanderbilt University",
+      "date": "2025-07"
+    },
+    {
+      "name": "Google Cybersecurity Career Certificate",
+      "issuer": "Google",
+      "date": "2023-10"
+    },
+    {
+      "name": "Google Data Analytics Career Certificate",
+      "issuer": "Google",
+      "date": "2021-04"
+    },
+    {
+      "name": "Data Scientist with Python Career Track",
+      "issuer": "DataCamp",
+      "date": "2021-03"
+    },
+    {
+      "name": "Data Engineer with Python",
+      "issuer": "DataCamp",
+      "date": "2021-02"
+    },
+    {
+      "name": "Machine Learning Scientist with Python Career Track",
+      "issuer": "DataCamp",
+      "date": "2020-08"
+    }
+  ],
+  "interests": [],
+  "languages": [],
+  "references": []
+}
