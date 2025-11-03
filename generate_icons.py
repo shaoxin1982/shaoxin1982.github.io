@@ -1,6 +1,6 @@
 """
 Generate portfolio icons from profile photo.
-Creates icon-192x192.png, icon-512x512.png, icon.png, and icon.svg
+Creates icon-192x192.png, icon-512x512.png, icon.png, icon.svg, and favicon.ico
 """
 from pathlib import Path
 from PIL import Image, ImageDraw
@@ -84,6 +84,26 @@ def create_svg_icon(source_path: str, output_path: str, size: int = 512):
     print(f"✓ Created {output_path} (SVG with embedded {size}x{size} image)")
 
 
+def create_favicon_ico(source_path: str, output_path: str):
+    """
+    Create a multi-resolution favicon.ico file.
+    Embeds 16x16, 32x32, and 48x48 sizes for different display contexts.
+    """
+    # Create circular icons at different sizes
+    sizes = [16, 32, 48]
+    icons = [create_circular_icon(source_path, size) for size in sizes]
+
+    # Save as ICO with multiple resolutions
+    icons[0].save(
+        output_path,
+        format="ICO",
+        sizes=[(size, size) for size in sizes],
+        append_images=icons[1:]
+    )
+
+    print(f"✓ Created {output_path} (multi-resolution: {', '.join(f'{s}x{s}' for s in sizes)})")
+
+
 def main():
     """Generate all icon files from the profile photo."""
     source_image = "portfolio_media/profile.jpg"
@@ -103,12 +123,16 @@ def main():
     # Generate SVG icon
     create_svg_icon(source_image, "icon.svg", 512)
 
+    # Generate favicon.ico
+    create_favicon_ico(source_image, "favicon.ico")
+
     print("\n✓ All icons generated successfully!")
     print("\nGenerated files:")
     print("  - icon-192x192.png (PWA icon)")
     print("  - icon-512x512.png (PWA icon)")
     print("  - icon.png (Apple touch icon, 180x180)")
     print("  - icon.svg (Scalable vector icon)")
+    print("  - favicon.ico (Multi-resolution favicon: 16x16, 32x32, 48x48)")
 
 
 if __name__ == "__main__":
